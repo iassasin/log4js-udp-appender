@@ -1,0 +1,42 @@
+{
+	"name": "log4js-udp-appender",
+	"version": "0.0.1",
+	"description": "Simple UDP Appender for log4js-node",
+	"homepage": "https://github.com/iassasin/log4js-udp-appender",
+	"files": [
+		"src",
+		"types"
+	],
+	"keywords": [
+		"logging",
+		"log",
+		"log4j",
+		"log4js",
+		"appender",
+		"node",
+		"udp"
+	],
+	"license": "MIT",
+	"main": "./src/index.js",
+	"types": "./types/index.d.ts",
+	"author": "iassasin<iassasin@yandex.ru>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/iassasin/log4js-udp-appender.git"
+	},
+	"bugs": {
+		"url": "https://github.com/iassasin/log4js-udp-appender/issues"
+	},
+	"engines": {
+		"node": ">=8.0"
+	},
+	"directories": {
+		"src": "src"
+	},
+	"browser": {
+		"os": false
+	},
+	"devDependencies": {
+		"@types/node": "^13.13.4"
+	}
+}
